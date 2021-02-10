@@ -4,7 +4,7 @@
 
     <groupId>com.codenameone</groupId>
     <artifactId>cn1-builder-resources</artifactId>
-    <version>7.0</version>
+    <version>7.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
@@ -25,12 +25,6 @@
             <url>https://maven.pkg.github.com/codenameone/CodenameOne</url>
         </repository>
     </distributionManagement>
-    <scm>
-        <connection>scm:git:git@github.com:shannah/cn1-builder-resources.git</connection>
-        <url>http://github.com/shannah/cn1-builder-resources</url>
-        <developerConnection>scm:git:git@github.com:shannah/cn1-builder-resources.git</developerConnection>
-
-      <tag>cn1-builder-resources-7.0</tag>
-  </scm>
+    
 </project>
     
