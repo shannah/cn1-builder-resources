@@ -4,7 +4,7 @@
 
     <groupId>com.codenameone</groupId>
     <artifactId>cn1-builder-resources</artifactId>
-    <version>7.0-SNAPSHOT</version>
+    <version>7.0</version>
 
     <packaging>pom</packaging>
 
@@ -30,6 +30,7 @@
         <url>scm:git:git@github.com:shannah/cn1-builder-resources.git</url>
         <developerConnection>scm:git:git@github.com:shannah/cn1-builder-resources.git</developerConnection>
 
-    </scm>
+      <tag>cn1-builder-resources-7.0</tag>
+  </scm>
 </project>
     
