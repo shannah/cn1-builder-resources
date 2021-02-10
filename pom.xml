@@ -26,9 +26,9 @@
         </repository>
     </distributionManagement>
     <scm>
-        <connection>scm:git:git@github.com:shannah/cn1-builder-resources.git</connection>
-        <url>scm:git:git@github.com:shannah/cn1-builder-resources.git</url>
-        <developerConnection>scm:git:git@github.com:shannah/cn1-builder-resources.git</developerConnection>
+        <connection>scm:git:shannah@github.com:shannah/cn1-builder-resources.git</connection>
+        <url>scm:git:shannah@github.com:shannah/cn1-builder-resources.git</url>
+        <developerConnection>scm:git:shannah@github.com:shannah/cn1-builder-resources.git</developerConnection>
 
       <tag>cn1-builder-resources-7.0</tag>
   </scm>
