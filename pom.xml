@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.codenameone</groupId>
+    <artifactId>cn1-builder-resources</artifactId>
+    <version>7.0-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <name>cn1-builder-resources</name>
+    <description>Resources for the Codename One builders</description>
+    <url>https://www.codenameone.com</url>
+    
+    <modules>
+        <module>common</module>
+        <module>android</module>
+        <module>javase</module>
+        <module>ios</module>
+    </modules>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Github Maven Packages</name>
+            <url>https://maven.pkg.github.com/codenameone/CodenameOne</url>
+        </repository>
+    </distributionManagement>
+    <scm>
+        <connection>scm:git:git@github.com:shannah/cn1-builder-resources.git</connection>
+        <url>scm:git:git@github.com:shannah/cn1-builder-resources.git</url>
+        <developerConnection>scm:git:git@github.com:shannah/cn1-builder-resources.git</developerConnection>
+
+    </scm>
+</project>
+    
